@@ -1,0 +1,351 @@
+/* Mobiles */
+@media (max-width:600px) {
+    .nav {
+        display: none;
+    }
+
+    .welcome-div {
+        top: 0px;
+        height: 27em;
+    }
+
+    .welcome-div p {
+        width: 60.6vw;
+        font-size: 16px;
+        padding: 20px 0px;
+    }
+
+    .welcome-div h1 {
+        font-size: 7vw;
+        font-weight: bolder;
+        padding-top: 10px;
+    }
+
+    .sec-2-main {
+        padding-top: 40px;
+        height: 40em;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .sec-2-main img {
+        width: 25em;
+        padding-top: 20px;
+    }
+
+    .sec-2-main h1 {
+        font-size: 10vw;
+    }
+
+    .sec-2-main p {
+        width: 19em;
+        font-size: 4vw;
+    }
+
+    .sec-3-main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .contranier-main {
+        height: 25em;
+        width: 78.2vw;
+        border: 1px solid black;
+        box-shadow: 1px 1px 3px 3px #D2D2F9;
+    }
+
+    .contranier-main .div-1 {
+        background: linear-gradient(#e9f5f8, #E8F2FA, #E6EAF9, #E7EEFA);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 15em;
+        padding: 10px;
+    }
+
+    .contranier-main .div-2 {
+        height: 10em;
+    }
+
+    .sec-4-1-first,
+    .sec-4-1-second,
+    .sec-4-1-third,
+    .sec-4-1-fourth {
+        flex-direction: column;
+        padding: 25px 0px;
+    }
+
+    .sec-4-1-first img {
+        width: 20em;
+    }
+
+    .sec-4-div-2 {
+        width: 80%;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .sec-4-div-2 p {
+        width: 16em;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .sec-4-div-2 h1 {
+        font-size: 30px;
+        width: 11em;
+    }
+
+    .btn-two-main {
+        width: 17.3em;
+        flex-direction: column;
+    }
+
+    .btn-two-main button {
+        margin-bottom: 10px;
+    }
+
+    .sec-4-div-2 {
+        height: 30em;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .sec-4-1-second img {
+        width: 30em;
+    }
+
+    .sec-4-1-third img {
+        width: 22em;
+    }
+
+    .sec-4-1-fourth .sec-4-div-1 img {
+        width: 29em;
+    }
+
+    .sec-4-1-fifth {
+        height: 65em;
+        flex-direction: column-reverse;
+        padding: 25px 0px;
+    }
+
+    .header-in-div {
+        width: 22em;
+    }
+
+    .main-content {
+        width: 22em;
+        padding: 27px;
+        height: 6.5em
+    }
+
+    .main-sec-5-contraniers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .contranier-sec-5 {
+        border: 1px solid black;
+        width: 100%;
+        height: 28em;
+        overflow: hidden;
+        margin: 10px 0px;
+    }
+
+    .contranier-5-div-3 {
+        top: -5em;
+        padding: 0px 10px;
+    }
+
+    #contranier-5-div-3-3 {
+        top: -7em;
+    }
+
+    #contranier-5-div-3-2 {
+        top: -6em;
+    }
+
+    .contranier-5-div-3 h1 {
+        font-size: 45px;
+    }
+
+    .sec-seventh-div-3-main {
+        display: none;
+    }
+
+    .sec-seventh-div-main .sec-seventh-div-1 {
+        display: none;
+    }
+
+    .sec-8-heading h1 {
+        text-align: center;
+        font-size: 28px;
+        padding: 0px;
+    }
+
+    .sec-Eight-cards-main {
+        flex-direction: column;
+        height: 96em;
+    }
+
+    .sec-Eight-card {
+        width: 21.5em;
+    }
+
+    .sec-Eight-card .div-1-sec-8 {
+        width: 21.3em;
+    }
+
+    .sec-8-last-div {
+        height: 60em;
+        flex-direction: column;
+    }
+
+    .sec-4-div-1 img {
+        width: 100%;
+    }
+
+    .btn-two-main-sec-8 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn-two-main-sec-8 button {
+        margin: 10px 0px;
+    }
+
+    /* footer */
+    .footer-header-div {
+        flex-direction: column;
+    }
+
+    .footer-main {
+        flex-direction: column;
+        margin-left: 30px;
+    }
+
+    .footer-main div ul {
+        padding: 30px 0px;
+    }
+}
+/* Tablets  */
+@media (min-width:600px) and (max-width:770px)  {
+    .nav {
+        width: 100vw;
+        padding: 11px;
+    }
+
+    #hero-web {
+        top: 71px;
+    }
+
+    .welcome-div {
+        top: 0px;
+    }
+
+    .sec-2-main {
+        flex-direction: column;
+        justify-content: center;
+        height: 60em;
+    }
+
+    .sec-3-main {
+        grid-template-columns: 1fr;
+        place-items: center;
+        padding: 0px;
+        margin: 70px 0px;
+    }
+
+    .sec-4-1-first {
+        flex-direction: column;
+        height: 70em;
+        justify-content: space-evenly;
+    }
+
+    .sec-4-div-1 {
+        display: contents;
+    }
+
+    .sec-4-div-1 img {
+        width: 80%;
+    }
+
+    .sec-4-div-2 {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sec-4-1-second {
+        flex-direction: column;
+        height: 65em;
+        justify-content: space-evenly;
+    }
+
+    .sec-4-1-third {
+        flex-direction: column;
+        height: 70em;
+        justify-content: space-evenly;
+    }
+
+    .sec-4-1-fourth {
+        flex-direction: column;
+        height: 65em;
+        justify-content: space-evenly;
+    }
+
+    .sec-4-1-fifth {
+        height: 68em;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .main-sec-5-contraniers {
+        grid-template-columns: 1fr;
+    }
+.contranier-sec-5{
+    width: 100%;
+}
+    .contranier-5-div-3 {
+        top: -11em;
+    }
+
+    .sec-seventh-div-main .sec-seventh-div-1,
+    .sec-seventh-div-3-main {
+        display: none;
+    }
+
+    .sec-Eight-cards-main {
+        flex-direction: column;
+        height: 90em;
+        margin: 40px 0px;
+    }
+    .sec-8-heading h1 {
+        font-size: 40px;
+        padding: 0px;
+        text-align: center;
+}
+.sec-8-last-div{
+    flex-direction: column;
+    height: 70em;
+    justify-content: space-evenly;
+}
+/* footer */
+.footer-header-div{
+    font-size: 20px;
+    align-items: baseline;
+}
+.footer-main h3{
+    font-size: 1rem;
+}
+.footer-main li{
+    font-size: 14px;
+}
+}
